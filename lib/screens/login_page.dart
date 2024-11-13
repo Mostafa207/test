@@ -14,7 +14,7 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     var obj = Provider.of<LoginProvider>( context,listen: false);
     return Scaffold(
-      appBar: AppBar(title: Text("mmmm") , centerTitle: true,),
+      appBar: AppBar(title: Text("ssss") , centerTitle: true,),
       body: Consumer(
         builder: (context,LoginProvider value, child) {
           var data = value.loginModel?.data;
