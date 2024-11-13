@@ -16,6 +16,7 @@ class LoginProvider extends ChangeNotifier{
     catch(e)
     {
       print(e.toString());
+
     }
     return false;
   }
